@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">3D Builder MC</string>
+    <string name="app_logo_description">Logo de 3D Builder MC</string>
+    <string name="splash_subtitle">Modelado 3D estilo Minecraft</string>
+
+    <!-- Activity Titles -->
+    <string name="title_main">3D Builder MC</string>
+    <string name="title_editor">Editor 3D</string>
+    <string name="title_project_list">Mis Proyectos</string>
+    <string name="title_texture_library">Biblioteca de Texturas</string>
+    <string name="title_custom_blocks">Bloques Personalizados</string>
+    <string name="title_settings">Configuración</string>
+    <string name="title_export_model">Exportar Modelo</string>
+    <string name="title_import_project">Importar Proyecto</string>
+    <string name="title_uv_editor">Editor UV</string>
+
+    <!-- Buttons -->
+    <string name="btn_new_project">Nuevo Proyecto</string>
+    <string name="btn_import_project">Importar Proyecto</string>
+    <string name="btn_import">Importar</string>
+    <string name="btn_export">Exportar</string>
+    <string name="btn_save">Guardar</string>
+    <string name="btn_undo">Deshacer</string>
+    <string name="btn_redo">Rehacer</string>
+    <string name="btn_settings">Configuración</string>
+    <string name="btn_camera_type">Tipo de cámara</string>
+    <string name="btn_uv_editor">UV Editor</string>
+    <string name="btn_texture_library">Texturas</string>
+    <string name="btn_custom_blocks">Bloques Custom</string>
+    <string name="btn_change_texture">Cambiar Textura</string>
+    <string name="btn_edit_uv">Editar UV</string>
+    <string name="btn_import_texture">Importar Textura</string>
+    <string name="btn_create_block">Crear Bloque</string>
+    <string name="btn_select_destination">Seleccionar destino</string>
+    <string name="btn_select_m3x_file">Seleccionar archivo .m3x</string>
+    <string name="btn_reset_defaults">Restaurar valores</string>
+    <string name="btn_reset_uv">Restablecer</string>
+    <string name="btn_apply_uv">Aplicar</string>
+
+    <!-- Hints -->
+    <string name="hint_search_projects">Buscar proyectos…</string>
+    <string name="hint_search_textures">Buscar texturas…</string>
+    <string name="hint_scale">1.0</string>
+    <string name="hint_position_x">X</string>
+    <string name="hint_position_y">Y</string>
+    <string name="hint_position_z">Z</string>
+
+    <!-- Labels -->
+    <string name="label_position">Posición</string>
+    <string name="label_block">Bloque</string>
+    <string name="label_selected_face">Cara seleccionada</string>
+    <string name="label_texture_preview">Vista previa de textura</string>
+    <string name="label_color">Color</string>
+    <string name="label_scale">Escala</string>
+    <string name="label_preview">Vista previa</string>
+    <string name="label_project_thumbnail">Miniatura del proyecto</string>
+
+    <!-- Headers -->
+    <string name="header_blocks">Bloques</string>
+    <string name="header_tools">Herramientas</string>
+    <string name="header_properties">Propiedades</string>
+
+    <!-- Edit Modes -->
+    <string name="mode_place">Colocar</string>
+    <string name="mode_remove">Eliminar</string>
+    <string name="mode_select">Seleccionar</string>
+    <string name="mode_paint">Pintar</string>
+    <string name="mode_uv">UV</string>
+
+    <!-- Settings -->
+    <string name="settings_ui_size">Tamaño de UI</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_autosave">Auto-guardado</string>
+    <string name="settings_default_camera">Cámara por defecto</string>
+    <string name="settings_grid">Cuadrícula</string>
+    <string name="settings_grid_visible">Mostrar cuadrícula</string>
+
+    <!-- UI Size Options -->
+    <string name="ui_size_small">Pequeño</string>
+    <string name="ui_size_medium">Mediano</string>
+    <string name="ui_size_large">Grande</string>
+    <string name="ui_size_extra_large">Extra Grande</string>
+
+    <!-- Theme Options -->
+    <string name="theme_dark">Oscuro</string>
+    <string name="theme_light">Claro</string>
+
+    <!-- Checkbox Labels -->
+    <string name="checkbox_include_textures">Incluir texturas</string>
+    <string name="checkbox_include_materials">Incluir materiales</string>
+
+    <!-- About -->
+    <string name="about_title">Acerca de</string>
+    <string name="about_app_name">3D Builder MC v1.0.0</string>
+    <string name="about_version">Versión 1.0.0</string>
+    <string name="about_description">Editor de modelos 3D estilo Minecraft.\nCrea, edita y exporta tus modelos 3D con facilidad.</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_project_saved">Proyecto guardado correctamente</string>
+    <string name="toast_project_created">Proyecto creado</string>
+    <string name="toast_project_deleted">Proyecto eliminado</string>
+    <string name="toast_project_imported">Proyecto importado correctamente</string>
+    <string name="toast_export_complete">Exportación completada</string>
+    <string name="toast_export_failed">Error al exportar</string>
+    <string name="toast_import_failed">Error al importar</string>
+    <string name="toast_texture_imported">Textura importada</string>
+    <string name="toast_block_created">Bloque personalizado creado</string>
+    <string name="toast_uv_applied">UV aplicado correctamente</string>
+    <string name="toast_uv_reset">UV restablecido</string>
+    <string name="toast_settings_reset">Configuración restaurada</string>
+    <string name="toast_no_project_selected">Selecciona un proyecto primero</string>
+    <string name="toast_block_placed">Bloque colocado</string>
+    <string name="toast_block_removed">Bloque eliminado</string>
+    <string name="toast_cannot_undo">No hay nada que deshacer</string>
+    <string name="toast_cannot_redo">No hay nada que rehacer</string>
+
+    <!-- Error Messages -->
+    <string name="error_file_not_found">Archivo no encontrado</string>
+    <string name="error_invalid_format">Formato de archivo no válido</string>
+    <string name="error_save_failed">Error al guardar el proyecto</string>
+    <string name="error_load_failed">Error al cargar el proyecto</string>
+    <string name="error_permission_denied">Permiso denegado</string>
+    <string name="error_storage_full">Almacenamiento lleno</string>
+    <string name="error_empty_name">El nombre no puede estar vacío</string>
+
+    <!-- Menu Items -->
+    <string name="menu_new_project">Nuevo Proyecto</string>
+    <string name="menu_open_project">Abrir Proyecto</string>
+    <string name="menu_save">Guardar</string>
+    <string name="menu_save_as">Guardar como…</string>
+    <string name="menu_export">Exportar</string>
+    <string name="menu_import">Importar</string>
+    <string name="menu_settings">Configuración</string>
+    <string name="menu_help">Ayuda</string>
+    <string name="menu_about">Acerca de</string>
+
+    <!-- Sort Options -->
+    <string-array name="sort_options">
+        <item>Nombre</item>
+        <item>Fecha</item>
+        <item>Tamaño</item>
+    </string-array>
+
+    <!-- Auto-save Intervals -->
+    <string-array name="autosave_intervals">
+        <item>30 segundos</item>
+        <item>60 segundos</item>
+        <item>120 segundos</item>
+        <item>300 segundos</item>
+    </string-array>
+
+    <!-- Camera Type Options -->
+    <string-array name="camera_type_options">
+        <item>Orbit</item>
+        <item>FPS</item>
+        <item>Orthographic</item>
+        <item>Isometric</item>
+        <item>Panoramic</item>
+    </string-array>
+
+    <!-- Texture Format Options -->
+    <string-array name="texture_format_options">
+        <item>Todos</item>
+        <item>PNG</item>
+        <item>JPEG</item>
+        <item>WebP</item>
+    </string-array>
+
+    <!-- Face Options -->
+    <string-array name="face_options">
+        <item>Superior (Top)</item>
+        <item>Inferior (Bottom)</item>
+        <item>Frontal (Front)</item>
+        <item>Trasera (Back)</item>
+        <item>Izquierda (Left)</item>
+        <item>Derecha (Right)</item>
+    </string-array>
+
+    <!-- Export Format Options -->
+    <string-array name="export_format_options">
+        <item>OBJ (.obj)</item>
+        <item>STL (.stl)</item>
+        <item>GLTF (.gltf)</item>
+        <item>DAE (.dae)</item>
+        <item>FBX (.fbx)</item>
+        <item>M3X (.m3x)</item>
+    </string-array>
+</resources>

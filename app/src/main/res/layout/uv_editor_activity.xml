@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dark_background">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/panel_background"
+        app:title="@string/title_uv_editor"
+        app:titleTextColor="@color/text_primary"
+        app:navigationIcon="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/tvFaceName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/accent_dark"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:padding="@dimen/padding_small" />
+
+    <com.dbuild.net.uv.UVEditorView
+        android:id="@+id/uvEditorView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="@dimen/margin_medium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="@dimen/margin_medium"
+        android:layout_marginBottom="@dimen/margin_small">
+
+        <EditText
+            android:id="@+id/etU"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="U"
+            android:inputType="numberDecimal"
+            android:textColor="@color/text_primary"
+            android:textColorHint="@color/text_hint"
+            android:backgroundTint="@color/accent_dark"
+            android:textSize="12sp"
+            android:layout_marginEnd="4dp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/etV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="V"
+            android:inputType="numberDecimal"
+            android:textColor="@color/text_primary"
+            android:textColorHint="@color/text_hint"
+            android:backgroundTint="@color/accent_dark"
+            android:textSize="12sp"
+            android:layout_marginEnd="4dp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/etUScale"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="U Scale"
+            android:inputType="numberDecimal"
+            android:textColor="@color/text_primary"
+            android:textColorHint="@color/text_hint"
+            android:backgroundTint="@color/accent_dark"
+            android:textSize="12sp"
+            android:layout_marginEnd="4dp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/etVScale"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="V Scale"
+            android:inputType="numberDecimal"
+            android:textColor="@color/text_primary"
+            android:textColorHint="@color/text_hint"
+            android:backgroundTint="@color/accent_dark"
+            android:textSize="12sp"
+            android:layout_marginEnd="4dp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/etRotation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Rotation"
+            android:inputType="numberDecimal"
+            android:textColor="@color/text_primary"
+            android:textColorHint="@color/text_hint"
+            android:backgroundTint="@color/accent_dark"
+            android:textSize="12sp"
+            android:importantForAutofill="no" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgUVTexturePreview"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="@dimen/margin_small"
+        android:scaleType="fitCenter"
+        android:background="@color/panel_background"
+        android:contentDescription="@string/label_texture_preview" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/margin_medium">
+
+        <Button
+            android:id="@+id/btnResetUV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_reset_uv"
+            android:textColor="@color/text_primary"
+            android:backgroundTint="@color/panel_background"
+            android:layout_marginEnd="@dimen/margin_small" />
+
+        <Button
+            android:id="@+id/btnApplyUV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_apply_uv"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/accent_dark"
+            android:layout_marginStart="@dimen/margin_small" />
+
+    </LinearLayout>
+
+</LinearLayout>

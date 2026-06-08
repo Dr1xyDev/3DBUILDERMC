@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors - Dark Theme -->
+    <color name="primary_dark">#1A1A2E</color>
+    <color name="primary_mid">#16213E</color>
+    <color name="primary_deep">#0F3460</color>
+    <color name="primary_accent">#E94560</color>
+
+    <!-- Panel Backgrounds -->
+    <color name="dark_background">#1E1E1E</color>
+    <color name="panel_background">#2D2D2D</color>
+    <color name="side_panel_background">#252525</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#E0E0E0</color>
+    <color name="text_secondary">#AAAAAA</color>
+    <color name="text_hint">#666666</color>
+
+    <!-- Accent Colors -->
+    <color name="accent_dark">#4FC3F7</color>
+    <color name="accent_light">#1976D2</color>
+
+    <!-- Grid Colors -->
+    <color name="grid_color">#3D3D3D</color>
+    <color name="grid_major_color">#555555</color>
+
+    <!-- Axis Colors -->
+    <color name="axis_x">#FF4444</color>
+    <color name="axis_y">#44FF44</color>
+    <color name="axis_z">#4444FF</color>
+
+    <!-- Status Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FF9800</color>
+    <color name="error">#F44336</color>
+
+    <!-- Splash Background -->
+    <color name="splash_background">#1A1A2E</color>
+
+    <!-- Divider -->
+    <color name="divider_color">#3D3D3D</color>
+
+    <!-- Standard Android Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="red">#F44336</color>
+    <color name="green">#4CAF50</color>
+    <color name="blue">#2196F3</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="orange">#FF9800</color>
+    <color name="purple">#9C27B0</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="magenta">#E91E63</color>
+    <color name="lime">#CDDC39</color>
+    <color name="teal">#009688</color>
+    <color name="indigo">#3F51B5</color>
+    <color name="amber">#FFC107</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="gray_dark">#616161</color>
+
+    <!-- Light Theme Colors -->
+    <color name="light_background">#FAFAFA</color>
+    <color name="light_panel">#FFFFFF</color>
+    <color name="light_side_panel">#F0F0F0</color>
+    <color name="light_text_primary">#212121</color>
+    <color name="light_text_secondary">#757575</color>
+    <color name="light_text_hint">#BDBDBD</color>
+    <color name="light_divider">#E0E0E0</color>
+
+    <!-- Block Colors (Minecraft-style) -->
+    <color name="block_grass">#5B8731</color>
+    <color name="block_stone">#7F7F7F</color>
+    <color name="block_dirt">#866043</color>
+    <color name="block_wood">#8B6914</color>
+    <color name="block_sand">#DBD3A0</color>
+    <color name="block_water">#3F76E4</color>
+    <color name="block_lava">#CF4913</color>
+    <color name="block_iron">#D8AF93</color>
+    <color name="block_gold">#FCDB05</color>
+    <color name="block_diamond">#2CCDB1</color>
+</resources>

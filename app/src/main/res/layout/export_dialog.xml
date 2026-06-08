@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/side_panel_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_export_model"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="16dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvExportFormats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:nestedScrollingEnabled="false" />
+
+    <CheckBox
+        android:id="@+id/cbIncludeTextures"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_include_textures"
+        android:textColor="@color/text_primary"
+        android:checked="true"
+        android:buttonTint="@color/accent_dark"
+        android:layout_marginBottom="8dp" />
+
+    <CheckBox
+        android:id="@+id/cbIncludeMaterials"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_include_materials"
+        android:textColor="@color/text_primary"
+        android:checked="true"
+        android:buttonTint="@color/accent_dark"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_scale"
+        android:textColor="@color/text_primary"
+        android:textSize="14sp"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/etScale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_scale"
+        android:inputType="numberDecimal"
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_hint"
+        android:backgroundTint="@color/accent_dark"
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/btnSelectDestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_select_destination"
+        android:textColor="@color/text_primary"
+        android:backgroundTint="@color/panel_background"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvDestinationPath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp"
+        android:layout_marginBottom="16dp"
+        android:ellipsize="middle"
+        android:singleLine="true" />
+
+    <ProgressBar
+        android:id="@+id/pbExportProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tvProgressPercent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp"
+        android:visibility="gone"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnExport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_export"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/accent_dark" />
+
+</LinearLayout>

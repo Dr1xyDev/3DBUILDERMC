@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-files-path
+        name="projects"
+        path="projects/" />
+    <external-files-path
+        name="textures"
+        path="textures/" />
+    <external-files-path
+        name="exports"
+        path="exports/" />
+    <external-files-path
+        name="shared"
+        path="shared/" />
+    <cache-path
+        name="cache"
+        path="." />
+</paths>
